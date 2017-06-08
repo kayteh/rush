@@ -1,0 +1,6 @@
+<meta>
+    <info name="Rush" author="Katalina" type="gamemode" />       
+
+    <script src="Rush.cs" type="server" lang="csharp" />
+    <script src="Rush.js" type="client" lang="javascript" />
+</meta>

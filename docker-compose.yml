@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  gtan:
+    image: katie/gtan
+    ports:
+      - "4499:4499/udp"
+    volumes:
+      - "./resources:/srv/resources"
+      - "./settings.xml:/srv/settings.xml"
+      - "./acl.xml:/srv/acl.xml"

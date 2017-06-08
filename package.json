@@ -1,0 +1,36 @@
+{
+  "name": "rush",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "standard": {
+    "globals": [
+      "API",
+      "resource",
+      "exported",
+      "Keys",
+      "Point",
+      "Vector3",
+      "Size",
+      "PedHash"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "dependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint-config-defaults": "^9.0.0",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-node": "^5.0.0",
+    "eslint-plugin-react": "^7.0.1"
+  }
+}
