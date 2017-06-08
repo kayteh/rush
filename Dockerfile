@@ -1,9 +1,4 @@
-FROM frolvlad/alpine-mono
+FROM katie/gtan
+# MAINTAINER Katalina T. <rush@kat.cafe>
 
-RUN apk add --no-cache unzip su-exec curl && \
-    curl https://download.gtanet.work/server/latest.zip > /srv/gtanserver.zip && \
-    cd /srv && \
-    unzip gtanserver.zip && \
-    rm gtanserver.zip
-
-CMD ash -c '(cd /srv; mono GTANetworkServer.exe)'
+COPY settings.xml acl.xml resources /srv/
