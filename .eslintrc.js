@@ -3,5 +3,11 @@ module.exports = {
     "plugins": [
         "standard",
         "promise"
-    ]
+    ],
+    globals: {
+        "API": true,
+        resource: true,
+        Point: true,
+        Size: true
+    }
 };

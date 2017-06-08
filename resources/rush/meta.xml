@@ -3,4 +3,5 @@
 
     <script src="Rush.cs" type="server" lang="csharp" />
     <script src="Rush.js" type="client" lang="javascript" />
+    <script src="uikit.js" type="client" lang="javascript" />
 </meta>
